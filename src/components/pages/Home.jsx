@@ -1,17 +1,13 @@
-import { Box } from '@mui/material'
-import { Stack } from '@mui/system';
 import React from 'react'
 
 const Home = () => {
 
-  return (
-    <Box height='50vh' bgcolor={{xs: 'aliceblue', sm: 'red', md: 'green'}} >
-      <Stack>
-        <Box>A</Box>
-        <Box>B</Box>
-      </Stack>
-    </Box>
-  )
+    return (
+        <div height='50vh' bgcolor={{ xs: 'green', sm: 'red', md: 'aliceblue' }} >
+            <div>A</div>
+            <div>B</div>
+        </div>
+    )
 }
 
 export default Home;

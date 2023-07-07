@@ -1,11 +1,10 @@
-import { Typography } from '@mui/material'
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 
 const ProductsLayout = () => {
   return (
     <div>
-        <Typography variant='h4'>All products</Typography>
+        <p variant='h4'>All products</p>
 
         <Outlet />
     </div>

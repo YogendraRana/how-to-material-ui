@@ -1,5 +1,4 @@
 import { useLoaderData, useNavigate, useNavigation } from "react-router-dom";
-import { Box } from "@mui/material";
 
 export const productsLoader = async () => {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts');
@@ -20,7 +19,7 @@ const Products = () => {
     }
     
     return (
-        <Box>            
+        <div>            
             {
                 products.map((product, index) => {
                     return (
@@ -38,7 +37,7 @@ const Products = () => {
                     )
                 })
             }
-        </Box>
+        </div>
     )
 }
 

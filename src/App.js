@@ -9,7 +9,6 @@ import ProductDetail, { productDetailLoader } from './components/pages/ProductDe
 import ProductError from './components/pages/ProductError';
 import ProductsLayout from './components/layout/ProductsLayout';
 
-
 // creating routes
 const router = createBrowserRouter(
   createRoutesFromElements(
